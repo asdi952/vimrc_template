@@ -1,0 +1,17 @@
+
+This is default vim 6/3/2021
+plus my config.
+
+In case no vimrc it uses the $(VIMRUNTIME)/defaults.vim
+Any _vimrc puted in $HOME, $VIM and  $VIMRUNTIME and after sourced(inside vim edito , source (% or path)), will overwrite default.vim, not sure about precednences
+
+go to /etc/vim/vim82/vimrc and add set exrc , after that local (in directory) _vimrc will overwrite prev _vimrc config
+
+My shorkey:
+
+new tab -> CTRL-t
+close tab -> CTRL-w
+next tab -> CTRL-m
+prev tab -> CTRL-n
+
+toogle number lies -> CTRL-l
